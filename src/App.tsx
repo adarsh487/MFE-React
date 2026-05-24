@@ -92,11 +92,12 @@ const App = () => {
           background: "white",
           borderBottom: "1px solid #f3e8ff",
         }}
+        className="header-main"
       >
         <Toolbar
           sx={{
             justifyContent: "space-between",
-            py: 1,
+            // py: 1,
           }}
         >
           <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
@@ -156,7 +157,7 @@ const App = () => {
       </AppBar>
 
       {/* ================= HERO SECTION ================= */}
-      <Container maxWidth="lg">
+      <Container className="content-main" maxWidth="lg">
         <Grid
           container
           spacing={6}
